@@ -18,7 +18,7 @@
     <WindowsPersistSimpleIdentifiers />
     <WorksheetBackgroundTransparency />
   </document-format-change-manifest>
-  <repository-location id='bikesharing_citibike' path='/workbooks' revision='1.8' />
+  <repository-location id='bikesharing_citibike' path='/workbooks' revision='2.0' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -4578,8 +4578,8 @@
                         <worksheet name='Top Starting Locations'>
                           <style delta-type='added'>
                             <style-rule element='axis'>
-                              <encoding attr='space' class='0' field='[federated.0pg5duo1sjr4oo1cbowrd0ea25fu].[none:start station latitude:qk]' field-type='quantitative' max='5124681.609012099' min='5057097.3292096071' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-                              <encoding attr='space' class='0' field='[federated.0pg5duo1sjr4oo1cbowrd0ea25fu].[none:start station longitude:qk]' field-type='quantitative' max='-8179746.9048556471' min='-8256461.6488998393' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                              <encoding attr='space' class='0' field='[federated.0pg5duo1sjr4oo1cbowrd0ea25fu].[none:start station latitude:qk]' field-type='quantitative' max='4983436.2641256591' min='4966109.9443680616' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+                              <encoding attr='space' class='0' field='[federated.0pg5duo1sjr4oo1cbowrd0ea25fu].[none:start station longitude:qk]' field-type='quantitative' max='-8225929.4366524965' min='-8245596.4981247243' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
                             </style-rule>
                           </style>
                         </worksheet>
@@ -4590,8 +4590,8 @@
                         <worksheet name='Top Ending Locations'>
                           <style delta-type='added'>
                             <style-rule element='axis'>
-                              <encoding attr='space' class='0' field='[federated.0pg5duo1sjr4oo1cbowrd0ea25fu].[none:end station latitude:qk]' field-type='quantitative' max='4985821.0279967347' min='4965457.0264177201' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-                              <encoding attr='space' class='0' field='[federated.0pg5duo1sjr4oo1cbowrd0ea25fu].[none:end station longitude:qk]' field-type='quantitative' max='-8224795.1592753893' min='-8247910.2856541118' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                              <encoding attr='space' class='0' field='[federated.0pg5duo1sjr4oo1cbowrd0ea25fu].[none:end station latitude:qk]' field-type='quantitative' max='4981907.2960926769' min='4965819.035265781' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+                              <encoding attr='space' class='0' field='[federated.0pg5duo1sjr4oo1cbowrd0ea25fu].[none:end station longitude:qk]' field-type='quantitative' max='-8226219.5843489105' min='-8244481.328278983' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
                             </style-rule>
                           </style>
                         </worksheet>
@@ -4615,16 +4615,16 @@
                         <worksheet name='McDonald&apos;s location in Des Moines'>
                           <style delta-type='added'>
                             <style-rule element='axis'>
-                              <encoding attr='space' class='0' field='[federated.1x25oi01qx2k6m19vbd4l10q1503].[none:latitude:qk]' field-type='quantitative' max='5153086.9010539958' min='4959896.178743274' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-                              <encoding attr='space' class='0' field='[federated.1x25oi01qx2k6m19vbd4l10q1503].[none:longitude:qk]' field-type='quantitative' max='-10290335.726091649' min='-10957909.354111811' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                              <encoding attr='space' class='0' field='[federated.1x25oi01qx2k6m19vbd4l10q1503].[none:latitude:qk]' field-type='quantitative' projection='EPSG:3857' scope='rows' type='space' />
+                              <encoding attr='space' class='0' field='[federated.1x25oi01qx2k6m19vbd4l10q1503].[none:longitude:qk]' field-type='quantitative' projection='EPSG:3857' scope='cols' type='space' />
                             </style-rule>
                           </style>
                         </worksheet>
                         <worksheet name='McDonald&apos;s location in NYC'>
                           <style delta-type='added'>
                             <style-rule element='axis'>
-                              <encoding attr='space' class='0' field='[federated.1r1d0yk1bxelu50zxg6md05kxcy1].[none:latitude:qk]' field-type='quantitative' max='4975999.0448325509' min='4968362.5629397733' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-                              <encoding attr='space' class='0' field='[federated.1r1d0yk1bxelu50zxg6md05kxcy1].[none:longitude:qk]' field-type='quantitative' max='-8219538.5621876856' min='-8249587.8068738654' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                              <encoding attr='space' class='0' field='[federated.1r1d0yk1bxelu50zxg6md05kxcy1].[none:latitude:qk]' field-type='quantitative' projection='EPSG:3857' scope='rows' type='space' />
+                              <encoding attr='space' class='0' field='[federated.1r1d0yk1bxelu50zxg6md05kxcy1].[none:longitude:qk]' field-type='quantitative' projection='EPSG:3857' scope='cols' type='space' />
                             </style-rule>
                           </style>
                         </worksheet>
@@ -4635,8 +4635,8 @@
                         <worksheet name='McDonald&apos;s location in NYC'>
                           <style delta-type='added'>
                             <style-rule element='axis'>
-                              <encoding attr='space' class='0' field='[federated.1r1d0yk1bxelu50zxg6md05kxcy1].[none:latitude:qk]' field-type='quantitative' max='5052516.304550793' min='4949521.944115621' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-                              <encoding attr='space' class='0' field='[federated.1r1d0yk1bxelu50zxg6md05kxcy1].[none:longitude:qk]' field-type='quantitative' max='-8194162.2199573424' min='-8251971.0338647999' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                              <encoding attr='space' class='0' field='[federated.1r1d0yk1bxelu50zxg6md05kxcy1].[none:latitude:qk]' field-type='quantitative' projection='EPSG:3857' scope='rows' type='space' />
+                              <encoding attr='space' class='0' field='[federated.1r1d0yk1bxelu50zxg6md05kxcy1].[none:longitude:qk]' field-type='quantitative' projection='EPSG:3857' scope='cols' type='space' />
                             </style-rule>
                           </style>
                         </worksheet>
@@ -4685,7 +4685,7 @@
             <run fontsize='12'>Reminder: peak hours occur around 8 am and 5 pm during work commuting.</run>
           </formatted-text>
         </zone>
-        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' forceUpdate='true' h='11722' id='13' story-point-id='1' w='89469' x='8268' y='88589'>
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' forceUpdate='true' h='11100' id='13' story-point-id='1' w='89469' x='6496' y='88485'>
           <formatted-text>
             <run fontalignment='0' fontsize='12'>The younger the users are, longer are the trips.</run>
             <run fontalignment='0'>Æ&#10;</run>
@@ -4763,8 +4763,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='105' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='104' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='111' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='110' param='vert' w='98400' x='800' y='1000'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='11250' id='37' w='89600' x='3200' y='625'>
                   <formatted-text>
                     <run bold='true' fontcolor='#000000' fontname='Arial Black' fontsize='16'>2. Des Moines and NYC population comparison</run>
@@ -4824,8 +4824,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='104' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='103' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='110' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='109' param='vert' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='2010-2019 Population Variation' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4873,8 +4873,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='104' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='103' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='110' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='109' param='vert' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Median household income (in 2018 dollars), 2014-2018' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4922,8 +4922,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='28' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='27' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='34' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='33' param='vert' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='98000' id='1' is-fixed='true' name='Age Repartition' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4980,8 +4980,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='90' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='89' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='96' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='95' param='vert' w='98400' x='800' y='1000'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='10750' id='3' w='92500' x='3300' y='4125'>
                   <formatted-text>
                     <run bold='true' fontcolor='#000000' fontsize='14'>Additional information on age repartition</run>
@@ -5084,8 +5084,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='39' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='38' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='45' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='44' param='vert' w='98400' x='800' y='1000'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='18375' id='3' w='93300' x='3500' y='2500'>
                   <formatted-text>
                     <run fontcolor='#000000' fontname='Arial Black' fontsize='16'>6. Commuting and employment dynamics</run>
@@ -5159,8 +5159,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='45' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98158' id='44' param='vert' w='98400' x='800' y='921'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='51' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98158' id='50' param='vert' w='98400' x='800' y='921'>
                 <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='280' h='50000' id='4' is-fixed='true' is-scaled='1' param='C:/Users/p-d-const127b/Repositories/github/bikesharing/Data/Images/NYC_fredgraph.png' url='https://fred.stlouisfed.org/series/SMU36935610000000001A' w='100000' x='0' y='0'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5201,8 +5201,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='70' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='69' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='76' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='75' param='vert' w='98400' x='800' y='1000'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='17250' id='3' w='78300' x='2400' y='1375'>
                   <formatted-text>
                     <run fontcolor='#000000' fontname='Arial Black' fontsize='16'>3. Des Moines and NYC gender repartition</run>
@@ -5253,8 +5253,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='80' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='79' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='86' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='85' param='vert' w='98400' x='800' y='1000'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='17250' id='16' w='96200' x='1600' y='2875'>
                   <formatted-text>
                     <run fontcolor='#000000' fontname='Arial Black' fontsize='16'>4. Density of McDonald&apos;s and influence in trips</run>
@@ -5353,8 +5353,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='84' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='83' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='90' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='89' param='vert' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='98000' id='5' is-fixed='true' name='Top Ending Locations' w='41200' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5423,8 +5423,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='900' minheight='900' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='138' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='137' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='144' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='143' param='vert' w='98400' x='800' y='1000'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='9875' id='27' w='97600' x='1300' y='1000'>
                   <formatted-text>
                     <run bold='true' fontcolor='#2b2b2b' fontname='Arial Black' fontsize='16'>1. </run>
@@ -5512,8 +5512,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='92' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='91' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='98' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='97' param='vert' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='August Peak Hours' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5583,8 +5583,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='97' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='96' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='103' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='102' param='vert' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Top Starting Locations' w='82400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5672,8 +5672,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='97' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='96' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='103' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='102' param='vert' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Top Ending Locations' w='82400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5736,8 +5736,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='58' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='57' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='64' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='63' param='vert' w='98400' x='800' y='1000'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='11500' id='3' w='97600' x='1500' y='2125'>
                   <formatted-text>
                     <run fontcolor='#000000' fontname='Arial Black' fontsize='16'>5. Weather Comparison</run>
@@ -5827,8 +5827,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='55' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='54' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='61' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='60' param='vert' w='98400' x='800' y='1000'>
                 <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='280' h='98000' id='3' is-fixed='true' is-scaled='1' param='C:/Users/p-d-const127b/Repositories/github/bikesharing/Data/Images/NYC_snow_NOAA.png' w='49200' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />

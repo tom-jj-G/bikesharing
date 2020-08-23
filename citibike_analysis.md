@@ -100,7 +100,7 @@ Each story has been commented.
 
 The data were found on the [Federal Reserve Bank of St. Louis website](https://fred.stlouisfed.org/)
 
-**Let's remind that in NYC, peak hours occur around 8 am and 5 pm during work commuting. Thus, economic prosperity is so important factor as the potential users should be mopre important. Des Moines is a dynamic city, hudge plus for us.**
+**Let's remind that in NYC, peak hours occur around 8 am and 5 pm during work commuting. Thus, economic prosperity is so important factor as the potential users should be more important. Des Moines is a dynamic city, hudge plus for us.**
 
 >![Slide15.PNG](Bike_Sharing_Analysis/Slide15.PNG)
 
