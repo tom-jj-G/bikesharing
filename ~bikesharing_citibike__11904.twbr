@@ -4421,7 +4421,7 @@
             <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98340' id='1' param='vert' removable='false' w='98426' x='787' y='830'>
               <zone _.fcp.SetMembershipControl.false...type='flipboard-nav' _.fcp.SetMembershipControl.true...type-v2='flipboard-nav' h='8195' id='4' paired-zone-id='5' removable='false' w='98426' x='787' y='830' />
               <zone _.fcp.SetMembershipControl.false...type='flipboard' _.fcp.SetMembershipControl.true...type-v2='flipboard' h='90145' id='5' paired-zone-id='4' removable='false' w='98426' x='787' y='9025'>
-                <flipboard active-id='9' nav-type='number' show-nav-arrows='true'>
+                <flipboard active-id='10' nav-type='number' show-nav-arrows='true'>
                   <story-points>
                     <story-point captured-sheet='NYC Citi Bike 1' id='1'>
                       <capturedDeltas>
@@ -4626,12 +4626,12 @@
             <run fontsize='12'>Quite the same repartition as for NYC, even younger.</run>
           </formatted-text>
         </zone>
-        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' forceUpdate='true' h='14108' id='21' story-point-id='9' w='47047' x='48917' y='61826'>
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' forceUpdate='true' h='14108' hidden='true' id='21' story-point-id='9' w='47047' x='48917' y='61826'>
           <formatted-text>
             <run fontalignment='0' fontsize='12'>About the same ratio for people between 20 and 59 years old (55% for Des Moines vs. 57% for NYC).</run>
           </formatted-text>
         </zone>
-        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' forceUpdate='true' h='3527' hidden='true' id='22' story-point-id='10' w='15059' x='42913' y='87241'>
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' forceUpdate='true' h='3527' id='22' story-point-id='10' w='15059' x='42913' y='87241'>
           <formatted-text>
             <run fontsize='12'>Same ratio.</run>
           </formatted-text>
@@ -6298,7 +6298,7 @@
     </window>
     <window class='dashboard' maximized='true' name='Bike sharing Stories'>
       <viewpoints />
-      <active id='5' />
+      <active id='-1' />
       <simple-id uuid='{1EF6DE69-0012-4CEA-A736-C2AE1A381D6C}' />
     </window>
   </windows>
