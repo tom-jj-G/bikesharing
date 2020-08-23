@@ -23,12 +23,24 @@ Data have been downloaded directly from [Citi Bike System Data page](https://www
 
 ## The bike-sharing company in Des Moines
 
-In order to conclude if a bike-sharing comapny in Des Moines makes sense, we analyze multiple factors:
+In order to conclude if a bike-sharing comapny in Des Moines makes sense, we analyzed multiple factors:
 - Comparison between NYC and Des Moines population
+    - What is the population of Des Moines?
+    - How does its population compare to the population of New York City?
+    - Does the population affect the number of people who will use the bike-sharing program?
 - The gender diversity between these cities
+    - What is the gender diversity of Des Moines?
+    - How does it compare to the gender diversity of New York City?
+    - What effect does it have on possible business in Des Moines?
 - The impact of McDonald's locations on ending trips
+    - What is the density of McDonald's in New York City versus Des Moines?
+    - Does this affect where people go in the city?
 - Weather comparison between the two cities
+    - What is the weather in New York City versus Des Moines?
+    - Does is have an impact on possible business in Des Moines?
 - The economic development
+    - What is the economic developement in New York City versus Des Moines?
+    - Does is have an impact on possible business in Des Moines?
 
 ### Des Moines and NYC population comparison
 
@@ -39,7 +51,7 @@ The analysis where based on:
 - [Des Moines and NYC Census Data](https://www.census.gov/quickfacts/fact/table/newyorkcitynewyork,desmoinescityiowa/PST045219)
 - [Census Reporter website](https://censusreporter.org/)
 
-**In a nutshell, even if Des Moine is a much more smaller city than NYC, population are quite similar.**
+**In a nutshell, even if Des Moine is a much more smaller city than NYC, population are quite similar so the using of the serving should be the same (in proportion).**
 
 >![Slide5.PNG](Bike_Sharing_Analysis/Slide5.PNG)
 
@@ -60,7 +72,7 @@ Each story has been commented.
 The analysis where based on:
 - [Des Moines and NYC Census Data](https://www.census.gov/quickfacts/fact/table/newyorkcitynewyork,desmoinescityiowa/PST045219)
 
-**As stated previously for population, gender repartition are quite similar between the two cities.**
+**As stated previously for population, gender repartition are quite similar between the two cities so NYC results could be forecasted for Des Moines.**
 
 >![Slide10.PNG](Bike_Sharing_Analysis/Slide10.PNG)
 
@@ -72,7 +84,7 @@ Each story has been commented.
 
 The analysis where based on csv data provided (cf. [Data](Data/) folder).
 
-**No correlation was found for NYC, so no prediction could be mnade for Des Moines**
+**No correlation was found for NYC (ending trip occurs near tourist attractions and transaportation stations) so no prediction could be made for Des Moines. We should experience the same pattern in Iowa.**
 
 >![Slide11.PNG](Bike_Sharing_Analysis/Slide11.PNG)
 
@@ -100,7 +112,7 @@ Each story has been commented.
 
 The data were found on the [Federal Reserve Bank of St. Louis website](https://fred.stlouisfed.org/)
 
-**Let's remind that in NYC, peak hours occur around 8 am and 5 pm during work commuting. Thus, economic prosperity is so important factor as the potential users should be more important. Des Moines is a dynamic city, hudge plus for us.**
+**Let's remind that in NYC, peak hours occur around 8 am and 5 pm during work commuting. Thus, economic prosperity is an important factor as the potential users should be more important. Des Moines is a dynamic city, hudge plus for us.**
 
 >![Slide15.PNG](Bike_Sharing_Analysis/Slide15.PNG)
 
