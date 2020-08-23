@@ -6,11 +6,11 @@ This is a summary of the analytic performed with the NYC Citi Bike data and othe
 
 Here below the major results for NYC Citi Bike.
 Each story has been commented.
-Only the month of August 2019 have been analyzed as there is likely more traffic during the summer months.
+Only the month of August 2019 has been analyzed as there is likely more traffic during the summer months.
 
 Data have been downloaded directly from [Citi Bike System Data page](https://www.citibikenyc.com/system-data).
 
-**To summarize, the services is mainly used by men, mostly during working commuting hours near touristic and transportation aeras. The younger the user are, the much longer appears to be the ride. Please note, as it is done on a story below, that the dataset used contains outliers.**
+**To summarize, the service is mainly used by men, mostly during working commuting hours near touristic and transportation areas. The younger the users are, the longer appear to be the rides. Please note, as it is done on a story below, that the dataset used contains outliers.**
 
 >![Slide1.PNG](Bike_Sharing_Analysis/Slide1.PNG)
 
@@ -23,7 +23,7 @@ Data have been downloaded directly from [Citi Bike System Data page](https://www
 
 ## The bike-sharing company in Des Moines
 
-In order to conclude if a bike-sharing comapny in Des Moines makes sense, we analyzed multiple factors:
+In order to conclude if a bike-sharing company in Des Moines makes sense, we analyzed multiple factors:
 - Comparison between NYC and Des Moines population
     - What is the population of Des Moines?
     - How does its population compare to the population of New York City?
@@ -37,10 +37,10 @@ In order to conclude if a bike-sharing comapny in Des Moines makes sense, we ana
     - Does this affect where people go in the city?
 - Weather comparison between the two cities
     - What is the weather in New York City versus Des Moines?
-    - Does is have an impact on possible business in Des Moines?
+    - Does it have an impact on possible business in Des Moines?
 - The economic development
     - What is the economic developement in New York City versus Des Moines?
-    - Does is have an impact on possible business in Des Moines?
+    - Does it have an impact on possible business in Des Moines?
 
 ### Des Moines and NYC population comparison
 
@@ -51,7 +51,7 @@ The analysis where based on:
 - [Des Moines and NYC Census Data](https://www.census.gov/quickfacts/fact/table/newyorkcitynewyork,desmoinescityiowa/PST045219)
 - [Census Reporter website](https://censusreporter.org/)
 
-**In a nutshell, even if Des Moine is a much more smaller city than NYC, population are quite similar so the using of the serving should be the same (in proportion).**
+**In a nutshell, even if Des Moine is a much more smaller city than NYC, population is quite similar so the use of the service should be the same (in proportion).**
 
 >![Slide5.PNG](Bike_Sharing_Analysis/Slide5.PNG)
 
@@ -72,14 +72,14 @@ Each story has been commented.
 The analysis where based on:
 - [Des Moines and NYC Census Data](https://www.census.gov/quickfacts/fact/table/newyorkcitynewyork,desmoinescityiowa/PST045219)
 
-**As stated previously for population, gender repartition are quite similar between the two cities so NYC results could be forecasted for Des Moines.**
+**As stated previously for population, gender repartition is quite similar between the two cities so NYC results could be forecasted for Des Moines.**
 
 >![Slide10.PNG](Bike_Sharing_Analysis/Slide10.PNG)
 
 
 ### Density of McDonald's and influence on trips
 
-Here below the major result found.
+Here below the major results found.
 Each story has been commented.
 
 The analysis where based on csv data provided (cf. [Data](Data/) folder).
@@ -93,7 +93,7 @@ The analysis where based on csv data provided (cf. [Data](Data/) folder).
 
 ### Weather Comparison
 
-Here below the major result found.
+Here below the major results found.
 Each story has been commented.
 
 The data were found on the [National Oceanic and Atmospheric Administration website](https://w2.weather.gov/climate/xmacis.php?wfo=okx)
@@ -107,12 +107,12 @@ The data were found on the [National Oceanic and Atmospheric Administration webs
 
 ### Economic Comparison
 
-Here below the major result found.
+Here below the major results found.
 Each story has been commented.
 
 The data were found on the [Federal Reserve Bank of St. Louis website](https://fred.stlouisfed.org/)
 
-**Let's remind that in NYC, peak hours occur around 8 am and 5 pm during work commuting. Thus, economic prosperity is an important factor as the potential users should be more important. Des Moines is a dynamic city, hudge plus for us.**
+**Let's remind that in NYC, peak hours occur around 8 am and 5 pm during work commuting. Thus, economic prosperity is an important factor as the potential users should be more important. Des Moines is a dynamic city, huge plus for us.**
 
 >![Slide15.PNG](Bike_Sharing_Analysis/Slide15.PNG)
 
