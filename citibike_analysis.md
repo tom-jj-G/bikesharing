@@ -18,7 +18,7 @@ Data have been downloaded directly from [Citi Bike System Data page](https://www
 
 >![Slide3.PNG](Bike_Sharing_Analysis/Slide3.PNG)
 
->![Slide4.PNG](Bike_Sharing_Analysis/Slide3.PNG)
+>![Slide4.PNG](Bike_Sharing_Analysis/Slide4.PNG)
 
 
 ## The bike-sharing company in Des Moines
